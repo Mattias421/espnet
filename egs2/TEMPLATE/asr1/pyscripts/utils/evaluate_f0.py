@@ -173,7 +173,7 @@ def calculate(
 
 def get_parser() -> argparse.Namespace:
     """Get argument parser."""
-    parser = argparse.ArgumentParser(description="Evaluate Mel-cepstrum distortion.")
+    parser = argparse.ArgumentParser(description="Evaluate log-F0 RMSE.")
     parser.add_argument(
         "gen_wavdir_or_wavscp",
         type=str,
